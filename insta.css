@@ -10,7 +10,19 @@
     top: 0;
     width: 100%;
 }
-
+.nav-center {
+    width: 215px;
+    height: 30px;
+    border-radius: 5px;
+    border: 1px solid rgba(224, 224, 224, 0.945);
+    background-color: #fafafaf1;
+    color: rgba(153, 153, 153, 0.863);
+    font-size: 14px;
+    line-height: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
 .nav-right{
     box-sizing: border-box;
     margin: 0;
