@@ -1,3 +1,23 @@
+.navbar {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    height: 70px;
+    padding: 0 50px;
+    background-color: white;
+    border-bottom: 1px solid rgb(224, 223, 223);
+    position: fixed;
+    top: 0;
+    width: 100%;
+}
+
+.nav-right{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+   
 .circle{
     width: 200px;
     height: 200px;
@@ -21,7 +41,18 @@
 
 }
 
+.circles{
+    width: 76px;
+    height: 76px;
+    border-radius: 100px;
+
+}
+
 .highlights{
     display:flex;
     align-content: center;
+    margin: 0;
+    padding: 0;
+    clear: both;
+
 }
