@@ -40,10 +40,14 @@
 
 }
 
-.circles{
+.contents {
+    width: 60%;
+    margin: 0 auto;
+    border-top: 1px solid slategray;
+/* .circles{
     width: 76px;
     height: 76px;
-    border-radius: 100px;
+    border-radius: 100px; */
 
 }
 
@@ -61,4 +65,20 @@
     margin: 50px auto;
    
 
+}
+.subnav{
+    margin: 20px auto;
+    width: fit-content;
+    display: flex;
+    justify-content: space-between;
+    align-content: center;
+    font-size: 12px;
+    flex-direction: row;
+}
+.imgs {
+    display: grid;
+    justify-content: space-evenly;
+    grid-template-columns: auto auto auto;
+    grid-gap: 20px 0;
+    
 }
