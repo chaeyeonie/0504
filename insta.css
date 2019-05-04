@@ -69,3 +69,10 @@
     font-size: 12px;
     flex-direction: row;
 }
+.imgs {
+    display: grid;
+    justify-content: space-evenly;
+    grid-template-columns: auto auto auto;
+    grid-gap: 20px 0;
+    
+}
